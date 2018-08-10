@@ -1,0 +1,26 @@
+/* making changes in body */
+body {
+    background-color: #AEAEAE;
+    margin: 0; 
+}
+
+/* Site Wrapper */
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Header */
+.header {
+    background-color: #E7E5E6;
+    padding: 30px;
+}
+
+/* editing "logo" */
+.header .logo {
+    background-color: #AEAEAE;
+    display: inline-block;
+    font-size: 48px;
+    padding: 15px 50px;
+    text-transform: uppercase;
+}
