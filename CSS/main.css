@@ -24,3 +24,64 @@ body {
     padding: 15px 50px;
     text-transform: uppercase;
 }
+
+/* Navigation */
+.navigation {
+    background-color: #A5A3A4;
+}
+.navigation ul {
+    /* space between divs */
+    margin: 0;
+    padding-left: 0;
+}
+.navigation li {
+    /* displaying links in one line */
+    display: inline-block;
+    padding: 15px 25px;
+}
+.navigation a {
+    color: #fff;
+    /* no underline on links */
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Main */
+.main {
+    background-color: #F3EFF0;
+    float: left;
+    min-height: 600px;
+    width: 70%;
+}
+.main h1 {
+	padding-left: 35px;
+}
+.main p {
+	padding: 5px 35px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #CECCCD;
+    float: left;
+    min-height: 600px;
+    /* Remember width of main is 70%. Therefore, width of the sidebar is 30% to visually fulfill the space*/
+    width: 30%;
+}
+.sidebar h2 {
+	padding-left: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #514F50;
+    /* specifies on which sides of an element floating elements are not allowed to float. */
+    clear: left;
+    font-size: 14px;
+    padding: 9px 0;
+}
+.footer p {
+    margin: 0;
+    color: #FFFFFF;
+    padding-left: 35px;
+}
